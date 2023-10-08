@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
 public class Calculater {
+   static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+     //   Scanner scanner = new Scanner(System.in);
         int chooseIntOrFloat = 0;
         boolean chosedInt = false;
         boolean chosedFloat = false;
@@ -77,7 +78,7 @@ public class Calculater {
 // METHODEN
 
     static int readNumber() {
-        Scanner scanner = new Scanner(System.in);
+       // Scanner scanner = new Scanner(System.in);
         int chooseIntOrFloat = Integer.parseInt(scanner.nextLine());
         return chooseIntOrFloat;
     }
